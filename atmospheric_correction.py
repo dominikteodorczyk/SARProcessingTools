@@ -406,5 +406,5 @@ class AtmoCorrectionModule(Raster):
                 new_raster.write(rester_corrected.T, 1)
 
         except ValueError as e:
-            print(f'Somethong gone wrong with {self.name} ')        
-            print(f'mor details: {e}')
+            print(f'Something gone wrong with {self.name} ')        
+            print(f'more details: {e}')
